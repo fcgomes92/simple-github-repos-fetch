@@ -26,7 +26,7 @@ with request.urlopen(repos_url) as response:
         for idx, repo in enumerate(repos):
             print("{:3}) {}".format(idx, repo.get('full_name')))
     
-        title = 'Select one of the repos listed below to open it in your default browser: '
+        title = 'Enter the number of  one of the repos listed above to open it in your default browser: '
         
         try:
             selected = int(input(title))
