@@ -8,6 +8,12 @@ How to run:
 python fetcher.py
 ```
 
+For more details:
+
+```
+python fetcher.py -h
+```
+
 ---
 
 Requirements:
